@@ -11,6 +11,23 @@ Bootstrap 所支持的几个media queries都放在了一个文件中， 可以�
  手机到平板 |	小于等于767px |	流式列，无固定宽度
  手机	| 小于等于480px	| 流式列，无固定宽度
  
+ ##### @media screen and (max-width: 490px)
+~ .feature {
+    padding: 20px;
+} ~
+@media screen and (max-width: 740px)
+.feature {
+    padding: 30px;
+}
+@media screen and (max-width: 770px)
+.feature {
+    padding: 50px 40px;
+}
+.feature {
+    padding: 50px 20px;
+    position: relative;
+}
+ 
 ##### /* 大屏幕 */
 ##### @media (min-width: 1200px) { ... }
  
