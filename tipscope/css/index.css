@@ -83,15 +83,15 @@
 
 .appstore-btn .appstore-qrcode {
 	position: absolute;
-	top: -145px;
+	top: -155px;
 	left: -20px;
 	display: none;
 }
 
 .android-btn .android-qrcode {
 	position: absolute;
-	top: -145px;
-	left: 100px;
+	top: -155px;
+	left: 120px;
 	display: none;
 }
 
@@ -107,8 +107,8 @@
 
 .left-arrow {
 	position: absolute;
-	top: 23px;
-	left: 56px;
+	top: 37px;
+	left: 60px;
 	margin: 100px auto;
 	width: 300px;
 	height: 150px;
@@ -116,8 +116,8 @@
 
 .rigt-arrow {
 	position: absolute;
-	top: 23px;
-	left: 56px;
+	top: 37px;
+	left: 66px;
 	margin: 100px auto;
 	width: 300px;
 	height: 150px;
@@ -148,10 +148,14 @@
 	line-height: 12px;
 }
 
+.xj-title{
+	height: 75px;line-height: 75px;background:white;font-size: 15px;
+}
+
 .functionbox {
 	display: inline-block;
 	margin-top: 10px;
-	width:24.3%;
+	width:24.6%;
 	/* padding: 0 10px; */
 	box-sizing: border-box;
 }
@@ -161,7 +165,7 @@
 		display: inline-block;
 		width: 49%;
 		margin-top: 10px;
-		padding: 0 10px;
+		/* padding: 0 10px; */
 		box-sizing: border-box;
 	}
 }
