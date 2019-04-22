@@ -124,7 +124,7 @@
        * 计算签名。
       **/
       function getSignature() {
-        return axios.post('http://api2.hbfxxkj.com/getuploadkey.php', JSON.stringify({
+        return axios.post('https://demo.vod2.myqcloud.com/ugc-upload', JSON.stringify({
           "Action": "GetUgcUploadSign"
         })).then(function (response) {
           return response.data.data
