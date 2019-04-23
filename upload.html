@@ -127,7 +127,8 @@
         return axios.post('https://api.hbfxxkj.com/getkey.php', JSON.stringify({
           "Action": "GetUgcUploadSign"
         })).then(function (response) {
-          return response.data.data.data;
+          console.log("key"+response.data.data);
+          return response.data.data;
         })
       };
 
