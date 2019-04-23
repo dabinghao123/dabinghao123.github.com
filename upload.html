@@ -124,10 +124,10 @@
        * 计算签名。
       **/
       function getSignature() {
-        return axios.post('https://sjxiwe-8888-mnpzud.dev.ide.live/', JSON.stringify({
+        return axios.post('https://api.hbfxxkj.com/getkey.php', JSON.stringify({
           "Action": "GetUgcUploadSign"
         })).then(function (response) {
-          return response.data.data
+          return response.data.data.data;
         })
       };
 
